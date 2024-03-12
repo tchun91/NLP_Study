@@ -11,9 +11,9 @@ Week 1 - Neural Network Basic Foundation.
 8. Have your github page shown these results in a notebook.(math expression in github as well)
 
 Week 1 sources:
-https://machinelearningmastery.com/develop-your-first-neural-network-with-pytorch-step-by-step/
-https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f
-https://www.analyticsvidhya.com/blog/2021/04/estimation-of-neurons-and-forward-propagation-in-neural-net/
+- https://machinelearningmastery.com/develop-your-first-neural-network-with-pytorch-step-by-step/
+- https://towardsdatascience.com/how-to-define-a-neural-network-as-a-mathematical-function-f7b820cde3f
+- https://www.analyticsvidhya.com/blog/2021/04/estimation-of-neurons-and-forward-propagation-in-neural-net/
 
 
 Week 2 - NLP Basic Foundation
@@ -28,9 +28,9 @@ Week 2 - NLP Basic Foundation
 Embedding Layer: BERT begins with an embedding layer, which converts input tokens into dense vectors of fixed size. These embeddings capture semantic meaning and contextual information about the words in the input sequence.
 
 Week 2 sources:
-https://www.analyticsvidhya.com/blog/2021/08/a-friendly-guide-to-nlp-bag-of-words-with-python-example/
-https://huggingface.co/docs/transformers/main_classes/tokenizer
-https://realpython.com/python-nltk-sentiment-analysis/
+- https://www.analyticsvidhya.com/blog/2021/08/a-friendly-guide-to-nlp-bag-of-words-with-python-example/
+- https://huggingface.co/docs/transformers/main_classes/tokenizer
+- https://realpython.com/python-nltk-sentiment-analysis/
 
 Week 3 - NLP Basic Foundation
 Deep learning NLP
@@ -55,10 +55,10 @@ Normalization Layers: BERT employs layer normalization, which normalizes the act
 Dropout: Dropout is a regularization technique used to prevent overfitting by randomly dropping a proportion of the units (inputs) in the network during training. BERT uses dropout to regularize the hidden representations produced by the Transformer layers or other linear layers. 
 
 Week3 sources:
-Tokenizer - https://huggingface.co/learn/nlp-course/en/chapter6/1?fw=pt
-LSTM, RNN - https://www.theaidream.com/post/introduction-to-rnn-and-lstm
-biLSTM - https://www.geeksforgeeks.org/bidirectional-lstm-in-nlp/
-transformer - https://serokell.io/blog/transformers-in-ml
-https://www.columbia.edu/~jsl2239/transformers.html
-gan - https://www.geeksforgeeks.org/generative-adversarial-network-gan/
-t5 - https://cameronrwolfe.substack.com/p/t5-text-to-text-transformers-part
+- Tokenizer - https://huggingface.co/learn/nlp-course/en/chapter6/1?fw=pt
+- LSTM, RNN - https://www.theaidream.com/post/introduction-to-rnn-and-lstm
+- biLSTM - https://www.geeksforgeeks.org/bidirectional-lstm-in-nlp/
+- transformer - https://serokell.io/blog/transformers-in-ml
+- https://www.columbia.edu/~jsl2239/transformers.html
+- gan - https://www.geeksforgeeks.org/generative-adversarial-network-gan/
+- t5 - https://cameronrwolfe.substack.com/p/t5-text-to-text-transformers-part
