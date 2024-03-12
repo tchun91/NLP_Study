@@ -19,3 +19,26 @@ Week 2 - NLP Basic Foundation
 5. Use Tf-idf or bag of words and have your corpus.
 - Summarize definition
 6. Using the result from #5, predict category or section of each article. Share the result and metrics. (You can use any classification model.)
+Embedding Layer: BERT begins with an embedding layer, which converts input tokens into dense vectors of fixed size. These embeddings capture semantic meaning and contextual information about the words in the input sequence.
+
+Week 3 - NLP Basic Foundation
+Deep learning NLP
+Understanding the deep learning models in NLP
+1. gan
+2. transformer, sentence transformer
+3. lstm
+4. rnn
+5. bidirectional lstm
+6. t5
+7. Tokenizers - wordpiece, unigram, byte pair etc
+Through 1-7, Understand the details of each model such as network, unique technique and summarize them.
+
+Given data set and techniques, perform ner. Then, go back to your preferred model(pretrained) from the top list and fine-tune your model and do prediction. (Add linear layer+dropout or activation function to your deep learning model and freeze the embedding layer)
+
+Linear (Dense) Layers: BERT includes linear layers, also known as fully connected layers, which are used for dimensionality reduction or transformation of the hidden representations produced by the Transformer layers. These linear layers may be added on top of the Transformer outputs to project the representations into a different space or to reduce their dimensionality.
+
+Activation Functions: Activation functions introduce non-linearity into the network, allowing it to learn complex relationships between inputs and outputs. Common activation functions include ReLU (Rectified Linear Unit), which introduces non-linearity by outputting the input directly if it is positive and zero otherwise, and Gelu (Gaussian Error Linear Unit), which introduces a smooth non-linearity. These activation functions are typically applied after linear transformations within the network.
+
+Normalization Layers: BERT employs layer normalization, which normalizes the activations of each layer across the feature dimension. This helps stabilize training and improve the convergence of the network.
+
+Dropout: Dropout is a regularization technique used to prevent overfitting by randomly dropping a proportion of the units (inputs) in the network during training. BERT uses dropout to regularize the hidden representations produced by the Transformer layers or other linear layers. 
