@@ -62,3 +62,13 @@ Week3 sources:
 - https://www.columbia.edu/~jsl2239/transformers.html
 - gan - https://www.geeksforgeeks.org/generative-adversarial-network-gan/
 - t5 - https://cameronrwolfe.substack.com/p/t5-text-to-text-transformers-part
+
+Week 4 - NLP Transformer Training
+
+1. Bert
+2. MLM
+3. NSP
+4. GPL
+5. RL
+
+With the given dataset from previous week, use the following techniques; NSP, MLM, GPL, or RL to train your pretrained/scratch model and eventually finetune for the NER classification and compare the accuracy. You need to also use domain adaptation for tokenizer and train with your data. Please also summarize the definition and core concepts of each training method from 1 to 5 above.
