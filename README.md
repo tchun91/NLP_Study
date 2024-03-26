@@ -72,3 +72,21 @@ Week 4 - NLP Transformer Training
 5. RL
 
 With the given dataset from previous week, use the following techniques; NSP, MLM, GPL, or RL to train your pretrained/scratch model and eventually finetune for the NER classification and compare the accuracy. You need to also use domain adaptation for tokenizer and train with your data. Please also summarize the definition and core concepts of each training method from 1 to 5 above.
+
+Week 5 - NLP few shot semi supervised learning
+NLP Model Training part2
+1. Few shot learning/one shot learning and semi supervised learning, pair wise learning
+2. Siamese triplet loss
+3. Contrastive loss
+4. Using the given dataset, we are going to use bilstm scratch model to train using the above techniques. Please follow the below procedures.
+
+1. Construct your bilstm piece using pytorch. (Tokenizer should be trained using hugging face)
+1-2. You need to have your embedding layer at the beginning. (Randomly generated. Please reference under torch documentation.)
+1-3. You need to have an output layer(last hidden layer) as embedding vectors.
+2. Define your siamese triplet loss /Contrastive loss function and add it to your model.
+2-2. Generate pos, reg, and neg anchor. 
+2-3. You can use transformer(pretrained t5) model to get similarities of each sentence (cosine similarity) and use a threshold to assign into groups for each sentences then randomly pick within the range.
+Train your model.
+3. Add and fine tune a linear layer and compare with week4
+4. Get gini and compare with other pretrained models.
+
